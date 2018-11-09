@@ -8,7 +8,7 @@ permalink:  simplifying_the_hashes_manipulation_lab_part_i
 
  One of the more challenging concepts I've struggled with on my coding journey, is mentally visualizing what happens inside my code as it’s executed. Like most people who grew up in the 90s, when picturing the code that runs reality, I think of the streaming neon green data from the  *The Matrix*. How can we dive under the hood like Neo and Trinity?  When constructing our coding reality, we must get comfortable slipping into an environment that can pinpoint the exact line our code deviates off course.  Using the methods discussed bellow, we can focus on one of our most essential tasks on this journey: debugging our code. 
 
-Luckily for us budding software engineers, there's the **'binding pry'** method. If you are drawing a blank on this kick-butt method, click here: http://pryrepl.org/ My goal in my first post is show how incredibly resourceful `binding.pry` is and how it can save you hours of guess work about why your code is not passing the .spec file.
+Lucky for us budding software engineers, there's the **'binding pry'** method. If you are drawing a blank on this kick-butt method, click here: http://pryrepl.org/ My goal in my first post is show how incredibly resourceful `binding.pry` is and how it can save you hours of guess work about why your code is not passing the .spec file.
 
 ![](http://i.imgur.com/8cZTBpE.png)
 
