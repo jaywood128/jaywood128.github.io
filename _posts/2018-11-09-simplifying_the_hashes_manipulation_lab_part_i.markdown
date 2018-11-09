@@ -10,7 +10,7 @@ permalink:  simplifying_the_hashes_manipulation_lab_part_i
 
 Luckily for us budding software engineers, there's the **'binding pry'** method. If you are drawing a blank on this kick-butt method, click here: http://pryrepl.org/ My goal in my first post is show how incredibly resourceful `binding.pry` is and how it can save you hours of guess work about why your code is not passing the .spec file.
 
-![](https://i.imgur.com/8cZTBpE.png)
+![](http://i.imgur.com/8cZTBpE.png)
 
 Inside of our nested hash we have seasons, holidays, and each holiday's respective supply. The first layer of the hash includes the season `:winter`, which points to => another hash of holidays. This is why it's nested. 
 
@@ -31,7 +31,7 @@ holiday_hash[:summer]_________ #fill in the rest! What index are we trying to ac
 
 At this point, place a `require 'pry` at the top of your code. Then, just above the code you've written, place a binding.pry. It should look something like this. 
 
-![](https://i.imgur.com/Y4hnDcv.png)
+![](http://i.imgur.com/Y4hnDcv.png)
 
 
 Our next Holiday assignment, is to write method that adds supply to both winter holidays. Think about what we are trying to accomplish. How many times would we have to add something to an array to accomplish this? How can we add to a data structure in an ordered fashion? Using the `.each` method will help us accomplish this. However, test what we will we have access to using `holiday_hash.each do |key, value|`.  Would this give us access to the supplies inside each holiday? Use `binding.pry` explore what you have access to inside that first .each method. 
