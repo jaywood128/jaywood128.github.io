@@ -1,11 +1,11 @@
 # Site settings
-author: Johnathon Wood
-title: 
+author: Johnathon Wood 
+title: Deep dive on the Hashes Manipulation Lab
 header-img: img/home-bg.png
 email: jaywood128@gmail.com
-copyright_name: Johnathon Wood
+copyright_name: Johnathon Wood 
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A short-review of hashes and how to manipulate them
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jaywood128
