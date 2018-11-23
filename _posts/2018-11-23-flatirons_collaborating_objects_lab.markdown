@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Flatiron's Collaborating Objects Lab"
-date:       2018-11-23 19:21:34 +0000
+date:       2018-11-23 14:21:35 -0500
 permalink:  flatirons_collaborating_objects_lab
 ---
 
