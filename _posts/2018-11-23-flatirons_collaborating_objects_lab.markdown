@@ -29,7 +29,7 @@ Ultimately, this Class will take in the files from the specs, parse them, and se
          end
 	end `
 	
-	The path parameter will take in the file `path`to the MP3 files and the #path method will expose the files and allow us to read them. Remember that the attr_accessor for path is equivalent to writing:
+The path parameter will take in the file `path`to the MP3 files and the #path method will expose the files and allow us to read them. Remember that the attr_accessor for path is equivalent to this:
 	
  `def path
 	   @path
@@ -38,8 +38,7 @@ Ultimately, this Class will take in the files from the specs, parse them, and se
     @path = path 
   end`
 	
-	If you really want to understand where the songs are coming from, go to the mp3_importer_spec.rb file and see what path is equal to. 
-	It's stored as a variable called test_music_path = "./spec/fixtures/mp3s". This is important to note for the next method, that will require a file path using Dir.glob. 
+If you really want to understand where the songs are coming from, go to the mp3_importer_spec.rb file and see what path is equal to. It's stored as a variable called test_music_path = "./spec/fixtures/mp3s". This is important to note for the next method, that will require a file path using Dir.glob. 
 	
 	#files
 	
@@ -101,5 +100,5 @@ artist_name = filename.split(" - ")[0]
    song
 end`
 
-The artist_name and song_name variables both contain the string that will be passed into the instances of artist and song. The reason I do this, is I like to cement my understanding by going into IRB or a binding.pry and create my own instances of Songs and Artist to see my creations come to life. This will reinforces abstract concepts and requires active engagement with your lab. Without doing this, you can waste hours getting stuck not knowing where your code is throwing errors or how to pin-point our bugs. 
+The artist_name and song_name variables both contain the string that will be passed into the instances of artist and song. The reason I do this, is I like to cement my understanding by going into IRB or a binding.pry and create my own instances of Songs and Artist to see my creations come to life. This reinforces abstract concepts and requires active engagement with your lab. This also allows us to play without any guidance. Without using pry, hours will surely be wasted getting so use it to debug your code. 
 
