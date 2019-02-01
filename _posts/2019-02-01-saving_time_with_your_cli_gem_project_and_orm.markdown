@@ -6,7 +6,7 @@ permalink:  saving_time_with_your_cli_gem_project_and_orm
 ---
 
 
-[![Fresh IDE](https://imgur.com/a/hFaTVJt)](https://imgur.com/a/hFaTVJt)
+[![D.R.Y feating Mario](https://i.imgur.com/VXpH40f.jpg)](https://i.imgur.com/VXpH40f.jpg)
 
 
 When you first start writing your own Classes in Object Oriented Ruby, you'll likely notice you are writing the same line, over and over. This usually can be avoided by writing more flexible, i.e. dynamic code. Two such methods would be #save and #create. You should never have to write these methods more than once! 
