@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      " "# Undefined Method for nil:NillClass" ."
+title:      "Undefined Method for nil:NillClass ."
 date:       2018-12-13 12:47:37 -0500
 permalink:  collaborating_objects_and_undefined_method_for_nil_nillclass
 ---
