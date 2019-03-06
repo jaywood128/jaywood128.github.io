@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "Barbell Strawng: A Sinatra Based Web App for Weightlifters ."
-date:       2019-03-06 18:18:12 +0000
+date:       2019-03-06 13:18:13 -0500
 permalink:  barbell_strawng_a_sinatra_based_web_app_for_weightlifters
 ---
 
 
-For my first Sinatra based web-application, creates a way to track your progress lifting weights. After advancing beyond beginner weightlifting routines, like Stronglift's 5x5,  and making awesome progress with Jim Wendeler's 531 program, I decided to make my own app. Without a plan, natural intermediate weightlifters have no shot becoming advanced weightlifters, risking over training and too much volume. 
+My first Sinatra based web-application allows users to track their progress lifting weights. After advancing beyond beginner weightlifting routines, like Stronglift's 5x5,  and making awesome progress with Jim Wendeler's 531 program, I decided to make my own app. Without a plan, natural intermediate weightlifters have no shot becoming advanced weightlifters, risking over training and too much volume. 
 
 **Project Requirements** 
 
-For this project, our applications must follow the Model View Architecture design pattern common for developing web applications. In order to save time, I used the corneal gem to quickly generate  a website template that includes a database connection and MVC directories, i.e. folders, out of the box. This gem is super useful for getting things up and running! To learn more about using corneal, click here: https://thebrianemory.github.io/corneal/
+For this project, our applications must follow the Model View Architecture design pattern common for developing web applications. In order to save time, I used the Corneal gem to quickly generate  a website template that includes a database connection and MVC directories, i.e. folders, out of the box. This gem is super useful for getting things up and running! To learn more about using corneal, click here: https://thebrianemory.github.io/corneal/
  
  Other requirements included using at least one `has_many` and one `belongs_to` relationship. How do you figure out which one is which? Our migrations should be based on the relationship between a User and a Lift; the Users is the parent table and the Lifts is the child. Therefore, a Lift belongs to a User and a user has many Lifts. Additionally, the Lifts table will have user_id stored in its table so that we know which user is associated with which particular lift. 
  
