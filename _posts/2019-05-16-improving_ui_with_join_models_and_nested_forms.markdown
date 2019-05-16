@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Improving UI with Join Models and Nested Forms"
-date:       2019-05-16 17:55:08 +0000
+date:       2019-05-16 13:55:09 -0400
 permalink:  improving_ui_with_join_models_and_nested_forms
 ---
 
