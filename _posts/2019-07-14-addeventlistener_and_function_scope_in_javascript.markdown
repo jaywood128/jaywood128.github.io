@@ -6,7 +6,7 @@ permalink:  addeventlistener_and_function_scope_in_javascript
 ---
 
 
-Adding dynamic features to my Ruby on Rails weightlifting application was made possible to incorporating JavaScript and a JSON API. Without really planning it, I ended up using 'VanilaJs' - this is a hip way of saying no additional libraries ,like JQuery, were used. So instead of using `$()` to select elements, I used document.getElementById() and  the Fetch API to request resources that could be rendered asynchronously -- without refreshing the page. 
+Adding dynamic features to my Ruby on Rails weightlifting application was made possible by incorporating JavaScript and a JSON API. Without really planning it, I ended up using 'VanilaJs' - this is a hip way of saying no additional libraries, like JQuery, were used. So instead of using `$()` to select elements, I used document.getElementById() and  the Fetch API to request resources that could be rendered asynchronously -- without refreshing the page. 
 
 When adding my first event listener to a form, I had some issues with making sure my HTML elements were loaded so the EventListeners could be added to a thing that was loaded and not to a think that was null. My workoutLifts.js file, my main JS file for my project, looked something like this: 
 ```
