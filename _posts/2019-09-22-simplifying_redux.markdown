@@ -6,7 +6,7 @@ permalink:  simplifying_redux
 ---
 
  
- When learning Redux the first time on learn.co, I had a vague idea of what Redux does: it acts as a single centralized source of truth for our application's state. The only way to non-destructivley mutate it, is to dispatch an action. 
+ For my final blog post, I wanted to use my React project to crystalize the concepts and purpose of Redux. When learning Redux the first time on learn.co, I had a vague idea of what Redux does: it acts as a single centralized source of truth for our application's state and we update it by dispatching actions. 
 
 This is only meant as a brief overview of how your components are connected to the store and one could begin to connect a form using Redux but it's important to understand the purpose of Redux before you begin to use it. 
  
@@ -14,7 +14,7 @@ This is only meant as a brief overview of how your components are connected to t
 
 Before jumping into how to use it, let's discuss the 'why'. Having a single source of truth makes for easier state management, especially as our application grows in complexity, storing state in different containers is not optimal. With Redux, we never access the store directy. Instead we plug our presententional components into the store, and then dispatch actions that will eventually return an updated state. Then that state will me passed to our presentational components.
  
-![](https://imgur.com/a/mep9XtN)
+![](http://i.imgur.com/JGhwjSU.png)
 
 1) First import the Provider, createStore, and your rootReducer. Be sure to import compose and applyMiddleware to like to use the develper extension. This is *really* important tool for being able to check if your Redux store's state has updated. The line is also important because we are assignning the value of store to rootReducer -- this combines our reducers. 
 *
@@ -25,7 +25,7 @@ Inside my React app, there is a SearchByDateContainer and a SearchByDate compone
 
 ## Inside your Container component 
 
-![](http://imgur.com/a/9Mm0V0R)
+![](http://i.imgur.com/B1McOaG.png)
 
 Inside my React app, there is a SearchByDateContainer and a SearchByDate component. The container will end up being connected to the store. User's will submit a date to search via the form to NASA's Astronomy Picture of the Day API. That date will then be passed to fetchSearchedPicture. The container is responsible for fetching, so fetchSearchedPicture should be passed as a prop to SearchByDate so that it's triggered when the SearchByDate form is submitted. 
 
